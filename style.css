@@ -1,0 +1,89 @@
+.sort{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(155, 213, 213);
+    height: 100vw;
+}
+.inputs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
+input {
+    font-size: 18px;
+    color: red;
+    height: 20px;
+    width: 50px;
+}
+.filter {
+    height: 26px;
+}
+
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box{
+    border: 1px solid black;
+    width: 400px;
+    margin-top: 10px;
+    background: rgb(219, 68, 249);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.buttons{
+    margin-top: 50px;
+    background-color: rgb(250, 201, 201);
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.lowto{
+    display: block;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+    box-shadow: 20px black;
+}
+.highto {
+    display: block;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+    box-shadow: 20px black;
+}
+.atoz{
+    display: block;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+    box-shadow: 20px black;
+}
+.ztoa{
+    display: block;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+    box-shadow: 20px black;
+}
